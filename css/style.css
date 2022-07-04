@@ -10686,10 +10686,10 @@ readers do not read off random characters that represent icons */
 }
 
 .no-webp .header {
-  background: url(../img/BG.png) no-repeat 0 0 transparent; }
+  background: url(../img/BG.png) no-repeat 100% 0 transparent; }
 
 .header {
-  background-size: cover;
+  background-size: auto;
   width: 100%;
   height: 46.875rem;
   opacity: 1;
@@ -10705,7 +10705,8 @@ readers do not read off random characters that represent icons */
   content: "";
   height: 46.875rem;
   width: 100%;
-  background-image: -ms-linear-gradient(143deg, #00b8d4 0%, #1de9b6 100%);
+  background-image: -o-linear-gradient(307deg, #00b8d4 0%, #1de9b6 100%);
+  background-image: linear-gradient(143deg, #00b8d4 0%, #1de9b6 100%);
   position: absolute;
   display: block;
   top: 0;
@@ -11316,7 +11317,8 @@ body {
   content: "";
   height: 100%;
   width: 100%;
-  background-image: -ms-linear-gradient(143deg, #00b8d4 0%, #1de9b6 100%);
+  background-image: -o-linear-gradient(307deg, #00b8d4 0%, #1de9b6 100%);
+  background-image: linear-gradient(143deg, #00b8d4 0%, #1de9b6 100%);
   position: absolute;
   display: block;
   top: 0;
@@ -11900,6 +11902,6 @@ body {
   }
 }
 
-.webp .header { background: url(../img/BG.webp) no-repeat 0 0 transparent; }
+.webp .header { background: url(../img/BG.webp) no-repeat 100% 0 transparent; }
 
 .webp .comments { background: url(../img/BG3.webp) 0 0 transparent; }
